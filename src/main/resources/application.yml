@@ -1,0 +1,14 @@
+server.port: "8091"
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/merchant-portal?serverTimezone=IST"
+    username: "root"
+    password: ""
+
+
+# hibernate configurations
+spring.jpa:
+  show-sql: "true"
+  hibernate:
+    ddl-auto: "update"
